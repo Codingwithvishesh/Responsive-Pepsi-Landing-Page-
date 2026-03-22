@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pepsi Landing Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<section class="sec">
+
+		<header>
+			<a href="#"><img src="https://i.imgur.com/eDSQy7T.png" class="logo"></a>
+
+			<div class="toggleMenu" onclick="menuToggle();"></div>
+
+			<ul class="navigation">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">What's New</a></li>
+				<li><a href="#">Newsletter</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+
+		</header>
+
+		<div class="content">
+
+			<div class="textBox">
+				<h2>That's What<br><span>I like</span></h2>
+				<p>
+					A refreshing Pepsi experience with modern web design.
+					This landing page changes colors and product images dynamically.
+				</p>
+				<a href="#">View All Products</a>
+			</div>
+
+			<div class="imgBox">
+				<img src="https://i.imgur.com/ISNuaac.png" class="pepsi">
+			</div>
+
+		</div>
+
+		<ul class="thumb">
+			<li>
+				<img src="https://i.imgur.com/ISNuaac.png"
+					onclick="imgSlider('https://i.imgur.com/ISNuaac.png'); changeBgColor('#0062be')">
+			</li>
+
+			<li>
+				<img src="https://i.imgur.com/ENBc8Wb.png"
+					onclick="imgSlider('https://i.imgur.com/ENBc8Wb.png'); changeBgColor('#e60c2c')">
+			</li>
+
+			<li>
+				<img src="https://i.imgur.com/zJL3O3J.png"
+					onclick="imgSlider('https://i.imgur.com/zJL3O3J.png'); changeBgColor('#1e1e1e')">
+			</li>
+		</ul>
+
+		<ul class="sci">
+			<li><a href="#"><img src="https://i.imgur.com/k6BjQHG.png"></a></li>
+			<li><a href="#"><img src="https://i.imgur.com/reMw4Vr.png"></a></li>
+			<li><a href="#"><img src="https://i.imgur.com/E4BDZdv.png"></a></li>
+		</ul>
+
+		<div class="footer">
+			Made with ❤️ by Codingwithvishesh
+		</div>
+
+	</section>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
